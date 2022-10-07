@@ -1,0 +1,176 @@
+#navbar {
+    background-color: rgba(255, 255, 255, 0.3);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0 auto;
+    transition: top 0.4s;
+}
+
+.logo {
+    float: left;
+    margin-left: 20%;
+    margin-top: 10px;
+}
+
+
+/* Style the navbar links */
+
+#navbar a {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    margin-left: 1%;
+    line-height: 50px;
+    font-size: 18px;
+    font-family: Tahoma, Helvetica, serif;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+#navbar a:nth-child(n+2):hover {
+    color: black;
+    border-bottom: 2px solid #000;
+}
+
+.box {
+    top: 80px;
+    position: relative;
+    background-color: transparent;
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.box img {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 30px;
+}
+
+p {
+    display: block;
+    font-size: 13px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.thanks {
+    font-size: 28px;
+    color: pink;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    height: 385px;
+    padding-top: 0px;
+    background-color: #f1f1f1;
+}
+
+.newsletter {
+    position: absolute;
+    left: 12%;
+    width: 30%;
+    height: 100%;
+}
+
+form {
+    border: 2px solid rgb(51, 102, 153);
+    border-radius: 10px;
+}
+
+
+/* Add some padding and a grey background color to containers */
+
+.container2 {
+    border-radius: 10px;
+    padding: 2%;
+    background-color: #f1f1f1;
+}
+
+
+/* Style the input elements and the submit button */
+
+input[type=text],
+input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+
+/* Add margins to the checkbox */
+
+input[type=checkbox] {
+    margin-top: 16px;
+    border-radius: 30px;
+}
+
+
+/* Style the submit button */
+
+input[type=submit] {
+    border-radius: 30px;
+    background-color: rgb(51, 102, 153);
+    color: white;
+    border: none;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+
+dl {
+    position: absolute;
+    top: 10%;
+}
+
+.quick {
+    left: 65%;
+    /* margin-left: 100px; */
+}
+
+.join {
+    left: 82%;
+}
+
+.information {
+    left: 48%;
+}
+
+dt a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 35px;
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+}
+
+dd {
+    margin-top: 15px;
+}
+
+dd a {
+    font-size: 15px;
+    color: rgba(51, 51, 51, .6);
+}
+
+dd a:hover {
+    color: rgb(51, 102, 153);
+}
+
+.copyright {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    font-size: 5px;
+    color: rgba(51, 51, 51, .7);
+}
